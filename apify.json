@@ -1,0 +1,7 @@
+{
+	"name": "czech-food-delivery-checker",
+	"version": "0.0",
+	"buildTag": "latest",
+	"env": null,
+	"template": "apify_project"
+}
