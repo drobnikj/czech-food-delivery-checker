@@ -18,3 +18,7 @@ You can easily set it up on Apify platform.
     - Set "Cron expression" to @hourly
     - Go to Tasks tab in your schedule
     - Add task -> Find your task and Save :tada:
+    
+## Warning
+
+Please do not set up the scheduler too hardly. We don't want to overload kosik.cz page.
