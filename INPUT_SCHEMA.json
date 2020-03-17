@@ -1,14 +1,37 @@
 {
-    "title": "Input schema for the apify_project actor.",
+    "title": "Input schema",
     "type": "object",
     "schemaVersion": 1,
     "properties": {
-        "test": {
-            "title": "Test",
+        "notifyEmail": {
+            "title": "Email to send notification",
             "type": "string",
-            "description": "There is testing input field description.",
-            "editor": "textfield"
+            "description": "Notification email will be sent to this address.",
+            "editor": "textfield",
+            "prefill": "example@email.com"
+        },
+        "street": {
+            "title": "Street",
+            "type": "string",
+            "description": "Address has to match the same format as they have on https://www.kosik.cz/. Try to fill address there the first and then copy it here.",
+            "editor": "textfield",
+            "prefill": "Štěpánská 704/61"
+        },
+        "city": {
+            "title": "City",
+            "type": "string",
+            "description": "Address has to match the same format as they have on https://www.kosik.cz/. Try to fill address there the first and then copy it here.",
+            "editor": "textfield",
+            "prefill": "Praha 1 - Nové Město"
+
+        },
+        "zip": {
+            "title": "ZIP code",
+            "type": "string",
+            "description": "Address has to match the same format as they have on https://www.kosik.cz/. Try to fill address there the first and then copy it here.",
+            "editor": "textfield",
+            "prefill": "11000"
         }
     },
-    "required": []
+    "required": ["notifyEmail", "street", "city", "zip"]
 }
