@@ -4,7 +4,7 @@
 	"description": "This is a boilerplate of an Apify actor.",
 	"dependencies": {
 		"apify": "^0.20.0",
-		"lodash": "^4.17.15"
+		"lodash": "^4.17.19"
 	},
 	"devDependencies": {
 		"@apify/eslint-config": "0.0.3",
