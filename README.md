@@ -10,7 +10,7 @@ It should help you to check it automatically without visiting the website the wh
 
 You can easily set it up on Apify platform.
 
-1. You need to click on the "Try for free" button on [this page](http://apify.com/drobnikj/czech-food-delivery-checker).
+1. You need to click on the "Try for free" button on [this page](https://apify.com/drobnikj/czech-food-delivery-checker).
 2. Fill all fields on the page where you will be redirected.
 3. Set up Scheduler to run this task periodically.
     - Go to [Schedules on Apify](https://my.apify.com/schedules).
